@@ -1,4 +1,6 @@
 class MyQueue {
+    // use two stacks one dedicated for push and other for pop
+
     Stack<Integer> pushStack;
     Stack<Integer> popStack;
     public MyQueue() {
